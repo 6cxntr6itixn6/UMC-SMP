@@ -61,7 +61,7 @@ world-settings:
     spawner-nerfed-mobs-should-jump: false
     despawn-ranges:
       soft: 32
-      hard: 128
+      hard: 56
     keep-spawn-loaded: true
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
@@ -144,8 +144,8 @@ world-settings:
     filter-nbt-data-from-spawn-eggs-and-related: true
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
-    armor-stands-do-collision-entity-lookups: true
-    max-entity-collisions: 8
+    armor-stands-do-collision-entity-lookups: false
+    max-entity-collisions: 2
     parrots-are-unaffected-by-player-movement: false
     disable-creeper-lingering-effect: false
     anti-xray:
@@ -179,5 +179,5 @@ world-settings:
     bed-search-radius: 1
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    armor-stands-tick: true
+    armor-stands-tick: false
     prevent-moving-into-unloaded-chunks: true
