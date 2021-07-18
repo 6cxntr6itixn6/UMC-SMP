@@ -40,7 +40,7 @@ settings:
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
-  save-user-cache-on-stop-only: false
+  save-user-cache-on-stop-only: true
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
@@ -79,7 +79,7 @@ world-settings:
       exp: 5.0
     view-distance: 4
     mob-spawn-range: 2
-    item-despawn-rate: 6000
+    item-despawn-rate: 3600
     entity-activation-range:
       animals: 15
       monsters: 25
@@ -98,7 +98,7 @@ world-settings:
     hopper-amount: 1
     random-light-updates: false
     save-structure-info: true
-    arrow-despawn-rate: 1200
+    arrow-despawn-rate: 600
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     enable-zombie-pigmen-portal-spawns: true
