@@ -77,7 +77,7 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    view-distance: 10
+    view-distance: 4
     mob-spawn-range: 4
     item-despawn-rate: 6000
     entity-activation-range:
