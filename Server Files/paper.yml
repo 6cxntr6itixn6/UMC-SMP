@@ -138,7 +138,7 @@ world-settings:
     skip-entity-ticking-in-chunks-scheduled-for-unload: true
     elytra-hit-wall-damage: true
     auto-save-interval: -1
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 8
     save-queue-limit-for-auto-save: 50
     remove-corrupt-tile-entities: false
     filter-nbt-data-from-spawn-eggs-and-related: true
@@ -180,4 +180,4 @@ world-settings:
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     armor-stands-tick: true
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
