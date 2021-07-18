@@ -70,7 +70,7 @@ world-settings:
     queue-light-updates: false
     game-mechanics:
       disable-end-credits: false
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
       allow-permanent-chunk-loaders: false
@@ -103,7 +103,7 @@ world-settings:
     disable-thunder: false
     disable-ice-and-snow: false
     mob-spawner-tick-rate: 2
-    container-update-tick-rate: 1
+    container-update-tick-rate: 3
     all-chunks-are-slime-chunks: false
     portal-search-radius: 128
     disable-teleportation-suffocation-check: false
@@ -138,7 +138,7 @@ world-settings:
     skip-entity-ticking-in-chunks-scheduled-for-unload: true
     elytra-hit-wall-damage: true
     auto-save-interval: -1
-    max-auto-save-chunks-per-tick: 8
+    max-auto-save-chunks-per-tick: 6
     save-queue-limit-for-auto-save: 50
     remove-corrupt-tile-entities: true
     filter-nbt-data-from-spawn-eggs-and-related: true
