@@ -140,7 +140,7 @@ world-settings:
     auto-save-interval: -1
     max-auto-save-chunks-per-tick: 8
     save-queue-limit-for-auto-save: 50
-    remove-corrupt-tile-entities: false
+    remove-corrupt-tile-entities: true
     filter-nbt-data-from-spawn-eggs-and-related: true
     enable-treasure-maps: false
     treasure-maps-return-already-discovered: true
@@ -149,7 +149,7 @@ world-settings:
     parrots-are-unaffected-by-player-movement: false
     disable-creeper-lingering-effect: false
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       chunk-edge-mode: 1
       max-chunk-section-index: 3
